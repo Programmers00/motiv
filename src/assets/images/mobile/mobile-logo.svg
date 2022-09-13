@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="147" height="42" viewBox="0 0 147 42">
+  <g id="mobile-logo" transform="translate(-318 -318.428)">
+    <circle id="Ellipse_1" data-name="Ellipse 1" cx="21" cy="21" r="21" transform="translate(318 318.428)" fill="#e5e5e5"/>
+    <path id="Path_2" data-name="Path 2" d="M30.707,23.178c9.716,0,7.585,9.02,3.4,13.339s-2.476,6.545-12.192,6.545-23.716-8.649-15.1-7.58S20.991,23.178,30.707,23.178Z" transform="translate(319.08 308.871)" fill="#9a5580"/>
+    <path id="Path_1" data-name="Path 1" d="M26.348,40.172c9.716,0,8.922-12.536,8.922-3S27.309,53.561,17.593,53.561A17.432,17.432,0,0,1,0,36.295C0,26.759,16.632,40.172,26.348,40.172Z" transform="translate(321.433 303.26)" fill="#cc905d"/>
+    <text id="Coffee_Co." data-name="Coffee &amp; Co." transform="translate(372 345.428)" fill="#cc905d" font-size="13" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="0" y="0">COFFEE</tspan><tspan y="0" fill="#9a5580"> </tspan><tspan y="0" fill="#333032">&amp;</tspan><tspan y="0" xml:space="preserve" fill="#9a5580"> CO.</tspan></text>
+  </g>
+</svg>

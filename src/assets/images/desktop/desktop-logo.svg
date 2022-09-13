@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="363" height="98" viewBox="0 0 363 98">
+  <g id="desktop-logo" transform="translate(-318 -319)">
+    <circle id="Ellipse_1" data-name="Ellipse 1" cx="49" cy="49" r="49" transform="translate(318 319)" fill="#e5e5e5"/>
+    <path id="Path_2" data-name="Path 2" d="M66.079,23.178c22.644,0,17.678,21.42,7.921,31.674S68.229,70.393,45.586,70.393s-55.271-20.539-35.2-18S43.435,23.178,66.079,23.178Z" transform="translate(326 327)" fill="#9a5580"/>
+    <path id="Path_1" data-name="Path 1" d="M61.405,50.207c22.644,0,20.792-29.767,20.792-7.123S63.644,82,41,82A41,41,0,0,1,0,41C0,18.356,38.761,50.207,61.405,50.207Z" transform="translate(326 327)" fill="#cc905d"/>
+    <text id="Coffee_Co." data-name="Coffee &amp; Co." transform="translate(446 382)" fill="#cc905d" font-size="33" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="0" y="0">COFFEE</tspan><tspan y="0" fill="#9a5580"> </tspan><tspan y="0" fill="#333032">&amp;</tspan><tspan y="0" xml:space="preserve" fill="#9a5580"> CO.</tspan></text>
+  </g>
+</svg>
