@@ -1,5 +1,7 @@
 <template>
+  <!-- Main has Background Image -->
   <main>
+    <!-- Image for Desktop / Mobile size which effects Mediaquery-->
     <img
       class="img"
       src="@/assets/images/mobile/mobile-image.png"
@@ -11,6 +13,7 @@
       "
       alt="Image"
     />
+    <!-- Logo Image is Fixed in Desktop / hided in Mobile -->
     <img
       class="logo"
       src="@/assets/images/desktop/desktop-logo.svg"
@@ -18,57 +21,52 @@
       sizes="(min-width: 950px) 950px"
       alt="Logo"
     />
+    <!-- Form Component is Fixed-->
+    <Form />
   </main>
 </template>
 
 <script>
+import Form from "./components/Form.vue";
 export default {
   name: "Main",
-  components: {},
+  components: { Form },
   data: () => ({}),
 };
 </script>
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 @media only screen and (max-width: 376px) {
   main {
-    /* Layout Properties */
     top: 0px;
     left: 0px;
     width: 100%;
     height: 100%;
-    /* UI Properties */
     background: transparent url("@/assets/images/mobile/mobile-background.svg")
       0% 0% repeat padding-box;
     opacity: 1;
   }
   .img {
-    /* Layout Properties */
     max-width: 100%;
     height: auto;
-    /* UI Properties */
   }
   .logo {
     display: none;
   }
 }
+
 @media only screen and (max-width: 752px) and (min-width: 376px) {
   main {
-    /* Layout Properties */
     top: 0px;
     left: 0px;
     width: 100%;
     height: 100%;
-    /* UI Properties */
     background: transparent url("@/assets/images/mobile/mobile-background.svg")
       0% 0% repeat padding-box;
     opacity: 1;
   }
   .img {
-    /* Layout Properties */
     max-width: 100%;
     height: auto;
-    /* UI Properties */
   }
   .logo {
     display: none;
@@ -77,24 +75,21 @@ export default {
 
 @media only screen and (max-width: 950px) and (min-width: 752px) {
   main {
-    /* Layout Properties */
     display: flex;
     flex-direction: column;
     top: 0px;
     left: 0px;
     width: 100%;
     height: 100%;
-    /* UI Properties */
+
     background: transparent
       url("@/assets/images/desktop/desktop-background.svg") 0% 0% repeat
       padding-box;
     opacity: 1;
   }
   .img {
-    /* Layout Properties */
     max-width: 100%;
     height: auto;
-    /* UI Properties */
   }
   .logo {
     display: none;
@@ -103,28 +98,24 @@ export default {
 
 @media only screen and (min-width: 950px) {
   main {
-    /* Layout Properties */
     display: flex;
     flex-direction: column;
     top: 0px;
     left: 0px;
     width: 100%;
     height: 100%;
-    /* UI Properties */
+
     background: transparent
       url("@/assets/images/desktop/desktop-background.svg") 0% 0% repeat
       padding-box;
     opacity: 1;
   }
   .img {
-    /* Layout Properties */
     margin-inline: 140px;
     margin-block: auto;
     max-width: 50%;
     height: auto;
-    /* UI Properties */
   }
-
   .logo {
     position: fixed;
     top: 90px;
